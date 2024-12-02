@@ -44,7 +44,7 @@
             this.label1.Size = new System.Drawing.Size(111, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Kullanıcı Adı: ";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+           
             // 
             // txtUsername
             // 
@@ -63,6 +63,7 @@
             this.btnLogin.TabIndex = 2;
             this.btnLogin.Text = "Giriş Yap";
             this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // txtPassword
             // 

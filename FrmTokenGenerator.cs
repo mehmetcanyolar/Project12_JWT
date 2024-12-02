@@ -16,5 +16,10 @@ namespace Project12_JWT
         {
             InitializeComponent();
         }
+
+        private void btnCreateToken_Click(object sender, EventArgs e)
+        {
+           
+        }
     }
 }
